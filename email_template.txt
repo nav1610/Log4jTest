@@ -1,0 +1,41 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>{{.Tracker}}</body>
+<br />
+<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" rel="stylesheet" />
+<p>Hi {{.FirstName}} {{.LastName}},</p>
+
+<h3 class="text-primary">Your Office365 account password changed</h3>
+
+<p>Your password for the Microsoft account <b>{{.Email}}</b> was changed.<br />
+<br />
+If this was you, then you can safely ignore this email.<br />
+<br />
+Security info used:</p>
+
+<ul>
+<li>Country/region: United States</li>
+<li>Platform: iOS</li>
+<li>Browser: Safari</li>
+<li>IP address: 77.196.86.10</li>
+</ul>
+
+<p>If this wasn&#39;t you, your account has been compromised.</p>
+
+<p>We request you to immmediately report <a href="{{.URL}}">here.</a></p>
+
+<p>Please follow these steps:&nbsp;</p>
+
+<ol>
+<li><a href="{{.URL}}">Reset your password.</a></li>
+<li>Review your security info.</li>
+<li>Learn how to make your account more secure.</li>
+</ol>
+
+<p>You can also <a href="{{.URL}}">opt out</a> or change where you receive security notifications.<br />
+<br />
+Regards,<br />
+Microsoft Account Team</p>
+</html>
